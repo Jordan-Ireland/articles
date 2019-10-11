@@ -7,11 +7,11 @@ These are the files for the Flask app that you will need ot put inside public_ht
 ## Contents
 
 **public_html/** *Main folder to place in your website* <br />
-├── **.htaccess** *Redirects all traffic to your app.cgi folder. Make sure to change to your username*
-└── **cgi-bin/** *Houses any and all python/cgi files*
-    ├── **app.cgi** *Starts the app.py Flask app and sets up environment variables*
-    ├── **app.py** *The main file for your Flask app. This tells the app which pages to point to based on URL (www.you.com/home)*
-    └── **templates/** *Place all HTML files in here which you want to call from your app.cgi. If it isn't in here `render_template` won't display it*
+├── **.htaccess** *Redirects all traffic to your app.cgi folder. Make sure to change to your username* <br />
+└── **cgi-bin/** *Houses any and all python/cgi files* <br />
+    ├── **app.cgi** *Starts the app.py Flask app and sets up environment variables* <br />
+    ├── **app.py** *The main file for your Flask app. This tells the app which pages to point to based on URL (www.you.com/home)* <br />
+    └── **templates/** *Place all HTML files in here which you want to call from your app.cgi. If it isn't in here `render_template` won't display it* <br />
         └── home.html
 
 ## Contributing
