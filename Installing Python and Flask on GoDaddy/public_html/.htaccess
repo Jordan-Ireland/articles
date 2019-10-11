@@ -1,0 +1,5 @@
+Options +ExecCGI 
+AddHandler cgi-script .py
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ /home/USERNAME/public_html/python/cgi-bin/app.cgi/$1 [L]
